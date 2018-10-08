@@ -1,0 +1,10 @@
+.brief-link {
+
+  $image-size: 50px;
+  margin-left: 10px;
+
+  .image {
+    width: $image-size;
+    height: $image-size;
+  }
+}
