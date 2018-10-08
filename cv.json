@@ -1,0 +1,308 @@
+{
+  "brief": {
+    "person": {
+      "name": "Vishal Gupta",
+      "title": "Full Stack Developer",
+      "residence": "Indirapuram, Ghaziabad",
+      "headshot": {
+        "source": "http://localhost:3000/headshot.jpg"
+      },
+      "mobile": "+91-9870743900",
+      "skype": "vishal.vishal.gupta48@gmail.com",
+      "email": "vishal.vishal.gupta48@gmail.com"
+    },
+    "links": [
+      {
+        "url": "https://www.linkedin.com/in/vishalgupta/",
+        "imageSource": "http://localhost:3000/linkedin.png",
+        "imageAlt": "LinkedIn"
+      },
+      {
+        "url": "https://stackoverflow.com/story/vishalvishalgupta",
+        "imageSource": "http://localhost:3000/stackoverflow.png",
+        "imageAlt": "StackOverflow"
+      },
+      {
+        "url": "https://github.com/vishalvishalgupta",
+        "imageSource": "http://localhost:3000/github.svg",
+        "imageAlt": "GitHub"
+      }
+    ],
+    "knowledge": {
+      "technologies": {
+        "items": [
+          {
+            "name": "C#",
+            "value": "Expert"
+          },
+          {
+            "name": ".NET/Core",
+            "value": "Expert"
+          },
+          {
+            "name": "Javascript",
+            "value": "Proficient"
+          },
+          {
+            "name": "React",
+            "value": "Proficient"
+          },
+          {
+            "name": "Redux",
+            "value": "Proficient"
+          },
+          {
+            "name": "ReactiveX",
+            "value": "Proficient"
+          },
+          {
+            "name": "HTML",
+            "value": "Intermediate"
+          },
+          {
+            "name": "S/CSS",
+            "value": "Intermediate"
+          },
+          {
+            "name": "Node.js",
+            "value": "Intermediate"
+          },
+          {
+            "name": "MongoDB",
+            "value": "Intermediate"
+          },
+          {
+            "name": "RabbitMQ",
+            "value": "Intermediate"
+          },
+          {
+            "name": "Docker",
+            "value": "Intermediate"
+          },
+          {
+            "name": "Git",
+            "value": "Intermediate"
+          },
+          {
+            "name": "AWS",
+            "value": "Basic"
+          }
+        ]
+      },
+      "paradigms": {
+        "items": [
+          "Test Driven",
+          "Async",
+          "Object Oriented",
+          "Functional",
+          "Microservices",
+          "Reactive"
+        ]
+      }
+    }
+  },
+  "details": {
+    "experience": {
+      "items": [
+        {
+          "title": "Full Stack Developer",
+          "company": "CorAlert",
+          "startDate": "July 2017",
+          "paragraphs": [
+            "Designing, Testing & Developing a Cloud Backed IoT application."
+          ],
+          "techStack":[
+            "React", "Redux", "Javascript",
+            "HTML", "S/CSS",
+            "Webpack", "Babel", "Jest",
+            "Node.js", "Express",
+            ".NET Core", "C#", "XUnit",
+            "ReactiveX",
+            "MongoDB", "RabbitMQ", "Docker", "AWS"
+          ],
+          "projects": {
+            "items": [
+              {
+                "name": "CorAlert Device",
+                "startDate": "July 2017",
+                "paragraphs": [
+                  "Development of a software stack for a medical device which detects heart failure."
+                ],
+                "features": [
+                  "Upstream synchronization of logs and data.",
+                  "Downstream synchronization of software versions and configuration profiles.",
+                  "Configurable Parallelism of Medical algorithms"
+                ]
+              },
+              {
+                "name": "CorAlert Management Console",
+                "startDate": "July 2017",
+                "paragraphs": [
+                  "Development of a cloud application which complements the company's device."
+                ],
+                "features": [
+                  "Track the status of devices.",
+                  "Deploy configuration profiles to devices.",
+                  "Deploy software versions to devices.",
+                  "View device logs (both historical and real time).",
+                  "View device generated data."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "Software Developer",
+          "company": "CodeValue",
+          "startDate": "March 2016",
+          "endDate": "July 2017",
+          "paragraphs": [
+            "Developing Software Systems and API's, as specified by client stakeholders."
+          ],
+          "techStack":[
+            "C#",
+            ".NET",
+            "MongoDB",
+            "WPF",
+            "ReactiveX",
+            "XUnit"
+          ],
+          "projects": {
+            "items": [
+              {
+                "name": "Video Camera Framework",
+                "startDate": "March 2016",
+                "endDate": "February 2017",
+                "paragraphs": [
+                  "The framework abstracts client code from intricacies of vendor implementation of video camera drivers."
+                ],
+                "features": [
+                  "Standardization of video camera functionality",
+                  "Extensible via Base Classes",
+                  "Configuration agnostic",
+                  "Protocol Agnostic - (IP, USB, etc.)"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "Teaching Assistant",
+          "company": "CodeValue",
+          "startDate": "June 2016",
+          "endDate": "July 2017",
+          "paragraphs": [
+            [
+              "Training entry level employees, as part of an introductory .NET course.",
+              "Screening candidates by evaluation of assignments",
+              "Conducting hands-on coding sessions.",
+              "Evaluating and reviewing solutions of lab assignments."
+            ]
+          ],
+          "techStack":[
+            "C#", ".NET"
+          ]
+        },
+        {
+          "title": "Software Developer",
+          "company": "Zeiss",
+          "startDate": "February 2013",
+          "endDate": "March 2016",
+          "paragraphs": [
+            "Development of in-house and client facing Software Systems."
+          ],
+          "techStack":[
+            "C#",
+            "WPF",
+            ".NET",
+            "Entity Framework"
+          ],
+          "projects": {
+            "items": [
+              {
+                "name": "Object Configuration Library",
+                "startDate": "September 2015",
+                "endDate": "March 2016",
+                "paragraphs": [
+                  "Developing a library which bridges the gap between native objects and managed code, By Mutating properties of live (in-memory) native objects via a C# API"
+                ]
+              },
+              {
+                "name": "Project Manager",
+                "startDate": "March 2014",
+                "endDate": "March 2016",
+                "paragraphs": [
+                  "Implementation of a Project Resource Management web application"
+                ],
+                "features": [
+                  "Manual input of work hours- per employee, per project, per date.",
+                  "Email notification of non complying employees.",
+                  "Management of employees, departments, projects and project categories.",
+                  "Report Generation"
+                ]
+              },
+              {
+                "name": "CDC / RegC Application",
+                "startDate": "February 2013",
+                "endDate": "March 2016",
+                "paragraphs": [
+                  "Maintaining and developing a composite-machine control application."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "education": {
+      "items": [
+        {
+          "degree": "B.Sc. Software Engineering",
+          "institution": "Ort Braude College",
+          "gpa": 83,
+          "classOf": 2016,
+          "projects": {
+            "name": "Smart Calendar",
+            "startDate": "March 2015",
+            "endDate": "January 2016",
+            "paragraphs": [
+              "An Android Application which enhances itinerary management with location awareness."
+            ],
+            "features": [
+              {
+                "name": "Leave on Time",
+                "paragraphs": [
+                  "Notify users when they should depart their current location, so that no appointment is ever missed"
+                ]
+              },
+              {
+                "name": "Scheduling Collision Detection",
+                "paragraphs": [
+                  "Warn users about events they would not be able to attend due to time and location constraints"
+                ]
+              },
+              {
+                "name": "Supervised Itinerary Management",
+                "paragraphs": [
+                  "A supervisor user (ex. a manager) can share a view only calendar with a supervised user (ex. employee)"
+                ]
+              },
+              {
+                "name": "Itinerary Progression Tracking",
+                "paragraphs": [
+                  "Informs supervisor users whenever their subordinates arrive at the venue, are going to be late to the venue or are leaving the venue ahead of time."
+                ]
+              }
+            ],
+            "techStack": [
+              "C#",
+              ".NET",
+              "Entity Framework",
+              "Android"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
