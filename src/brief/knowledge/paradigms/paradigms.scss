@@ -1,0 +1,9 @@
+.paradigms {
+  grid-area: paradigms;
+
+  .paradigm-container {
+
+    display: flex;
+    flex-flow: column nowrap;
+  }
+}
