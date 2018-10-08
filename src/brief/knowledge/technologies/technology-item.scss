@@ -1,0 +1,25 @@
+%tech-item-base{
+  background: white;
+  font-size: 0.9em;
+}
+
+$tech-item-border-radius: 7px;
+
+.technology-name {
+  @extend %tech-item-base;
+  border-radius: $tech-item-border-radius 0px  0px $tech-item-border-radius;
+  font-weight: bold;
+  padding-left: 2px;
+}
+
+.technology-value {
+  @extend %tech-item-base;
+  border-radius: 0 $tech-item-border-radius $tech-item-border-radius 0px;
+  padding-left: 20px;
+  padding-right: 10px;
+
+}
+
+.technology-even {
+  background: lightgray;
+}

@@ -1,0 +1,10 @@
+.technologies {
+  grid-area: technologies;
+
+  .tech-container {
+
+    display: grid;
+    grid-template-columns: max-content max-content;
+  }
+}
+
