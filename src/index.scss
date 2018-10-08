@@ -1,0 +1,35 @@
+$page-width: 21cm;
+$page-height: 29.7cm;
+
+@page {
+  size: $page-width $page-height;
+}
+
+html {
+  background-color: #E1EDEB;
+}
+
+body {
+  font-family: Niramit, Arial, Helvetica, sans-serif;
+  background-color: white;
+  width: $page-width;
+  height: $page-height;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 12pt;
+  -webkit-print-color-adjust: exact;
+  line-height: 145%;
+}
+
+div, ul, p, a, section, a, li, span {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
