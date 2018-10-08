@@ -1,0 +1,51 @@
+.person {
+
+  display: grid;
+  grid-auto-columns: auto;
+  grid-template-areas: "headshot" "name" "title" "residence" "mobile" "skype" "email";
+  grid-area: person;
+  margin-left: 10px;
+  grid-gap: 6px 0;
+  padding-bottom: 10px;
+
+  .headshot {
+    grid-area: headshot;
+    max-width: 200px;
+    border-radius: 7px;
+  }
+
+  .name {
+    grid-area: name;
+    font-size: 1.5em;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  .title {
+    grid-area: title;
+    font-size: 1.15em;
+    font-weight: bolder;
+    white-space: nowrap;
+  }
+
+  .mobile {
+    grid-area: mobile;
+    white-space: nowrap;
+    font-size: 0.95em;
+  }
+
+  .skype {
+    grid-area: skype;
+    white-space: nowrap;
+  }
+
+  .email {
+    grid-area: email;
+    white-space: nowrap;
+  }
+
+  .residence {
+    grid-area: residence;
+    white-space: nowrap;
+  }
+}
