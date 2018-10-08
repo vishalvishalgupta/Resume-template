@@ -1,0 +1,16 @@
+.knowledge {
+
+  grid-area: knowledge;
+  margin-left: 10px;
+
+  display: grid;
+  grid-template-areas: "technologies" "paradigms" ;
+  grid-auto-columns: auto;
+
+  .knowledge-label {
+    font-size: 1.1em;
+    font-weight: bolder;
+    margin-bottom: 7px;
+    margin-top: 7px;
+  }
+}
