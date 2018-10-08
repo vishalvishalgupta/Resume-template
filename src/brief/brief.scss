@@ -1,0 +1,6 @@
+.brief {
+  grid-area: brief;
+  display: grid;
+  grid-auto-rows: min-content;
+  grid-template-areas: "person" "links" "knowledge";
+}
