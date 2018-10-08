@@ -1,0 +1,22 @@
+.tech-stack {
+
+  .label {
+    margin-bottom: 5px;
+  }
+
+  .items {
+
+    max-width: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+
+    .item {
+      background: antiquewhite;
+      border-radius: 10px;
+      padding: 5px;
+      margin: 3px 5px 3px 0;
+    }
+  }
+}
